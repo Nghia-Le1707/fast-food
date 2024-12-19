@@ -1,0 +1,329 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+#header .container {
+    padding: 0;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.row {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.col-lg-3 {
+    width: 25%;
+}
+.col-lg-4 {
+    width: 33.333%;
+}
+.col-lg-6 {
+    width: 50%;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.section1, .section2 {
+    position: relative;
+    z-index: 99;
+}
+li {
+    list-style: none;
+}
+.background-page {
+    background-image: url('/images/hamburger-with-cheese-fries-it_883101-14376.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.background-page::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+.logo-header {
+    width: 150px;
+    height: auto;
+}
+.logo-header img {
+    width: 100%;
+    display: block;
+}
+.item-menu-header {
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-header {
+    column-gap: 50px;
+}
+.menu-header a {
+    color: #fff;
+}
+.login-register {
+    gap: 10px;
+}
+#header {
+    background-color: #191919;
+}
+.text-heading-s1 h1,
+.text-heading-s2 h1 {
+    color: #FFD34E;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.content-s1, .content-s2 {
+    text-align: center;
+}
+.content-s1 p,
+.content-s2 p {
+    color: #777;
+    padding: 20px 0;
+    line-height: 1.5;
+}
+.backgr-footer {
+    background-color: #211300;
+}
+.w-text {
+    color: #fff;
+}
+.w-text h1,
+.y-text h1 {
+    font-size: 20px;
+    border-bottom: 1px dashed #565656;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.text-feel {
+    margin: 20px 0;
+    padding: 10px;
+    height: 100px;
+    width: 95%;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    background: none;
+}
+.gmail-box {
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+    font-size: 14px;
+    background: none;
+    color: #fff;
+}
+.w-text button {
+    border: 2px solid #FFD34E;
+    font-size: 14px;
+    color: #000;
+    background: #FFD34E;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.w-text button:hover {
+    background: #fff;
+    border: 2px solid #FFD34E;
+    transition: 0.5s;
+}
+button {
+    cursor: pointer;
+}
+.space-item {
+    gap: 25px;
+}
+.y-text {
+    color: #FFD34E;
+
+}
+.menu-img img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+.menu-img {
+    padding: 5px;
+    width: 30%;
+}
+.y-text h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.y-text p {
+    font-size: 15px;
+    color: #fff;
+}
+.text-footer {
+    background-color: #000;
+    text-align: center;
+}
+.text-footer p {
+    color: #fff;
+    padding: 10px 0;
+}
+.icon-footer {
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.icon-footer a {
+    color: #fff;
+}
+.list-food-s1 img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+.img-food {
+    padding: 0 5px;
+}
+.list-drink-s2 img {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+.backgr-s1-intro {
+    background-image: url('/images/xgioi-thieu-2.jpg.pagespeed.ic.Uog1CYyvLp.webp');
+    background-position: center;
+    background-size: cover;
+    padding-left: 150px;
+    padding-top: 400px;
+    padding-bottom: 150px;
+    color: #fff;
+}
+.backgr-s1-intro h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.backgr-s1-intro p {
+    font-size: 30px;
+}
+.active {
+    color: #ffc836 !important;
+}
+h3 {
+    font-weight: 100;
+}
+.title-intro {
+    color: #bd0017;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+.name-intro hr,
+.vision hr,
+.mission hr {
+    width: 25%;
+    height: 2px;
+    background: #00AF78;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.name-intro br {
+    margin: 10px 0;
+}
+.lbanner-vision img {
+    width: 100%;
+    border-radius: 5px;
+}
+.vision {
+    gap: 20px;
+}
+.name-intro p,
+.vision p,
+.mission p {
+    line-height: 1.5;
+    color: #444444 !important;
+    text-align: justify;
+}
+.text-margin {
+    margin-bottom: 30px;
+}
+.banner-slider img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+.banner-slider {
+    position: relative;
+}
+.banner-slider .slick-dots {
+    bottom: 10px !important;
+}
+.banner-slider .slick-dots li button:before {
+    font-size: 18px !important;
+}
+.slick-dotted.slick-slider {
+    margin: 0 !important;
+}
+.backgr-menu-panigation {
+    background-color: rgba(25,25,25,0.8);
+    color: #fff;
+    text-align: center;
+}
+.food-menu,
+.drink-menu {
+    font-size: 30px !important;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.food-menu:hover,
+.drink-menu:hover {
+    background-color: #bd0017;
+}
+.active-menu {
+    background-color: #bd0017;
+}
+.img-food-menu img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.img-food-menu,
+.text-food-menu {
+    margin-bottom: 30px;
+}
+.text-food-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    font-size: 24px;
+    color: #bd0017;
+}
+.text-food-menu p {
+    font-size: 15px;
+    color: #30363D;
+}
+.btn-view-more {
+    width: 40%;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 8px 0;
+    border: 1px solid #bd0017;
+    color: #bd0017;
+    background: none;
+    text-align: center;
+}
+.btn-view-more:hover {
+    background: #bd0017;
+    color: #fff;
+    transition: 0.3s;
+}
